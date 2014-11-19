@@ -1,1603 +1,1618 @@
--   id: thragypto1
-    tags:
-        name: thragypto1
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: gjytlo2
-    tags:
-        name: gjytlo2
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Neandortia
-    tags:
-        name: Neandortia
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Nuen
-    tags:
-        name: Nuen
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Nopaltzin
-    tags:
-        name: Nopaltzin
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Badak
-    tags:
-        name: Badak
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: kjildorie2
-    tags:
-        name: kjildorie2
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Issy
-    tags:
-        name: Issy
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Tezozozomos
-    tags:
-        name: Tezozozomos
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Lotcatlic
-    tags:
-        name: Lotcatlic
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire18_nord
-    tags:
-        name: Empire, nord
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Grovburg
-    tags:
-        name: Grovburg
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Kham
-    tags:
-        name: Kham
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Cripiteng
-    tags:
-        name: Cripiteng
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Volotir
-    tags:
-        name: Volotir
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Teeb
-    tags:
-        name: Teeb
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Yenhal
-    tags:
-        name: Yenhal
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Bidnar
-    tags:
-        name: Bidnar
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Okob
-    tags:
-        name: Okob
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire28
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire29
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: BlaesenDefyrtarn
-    tags:
-        name: BlaesenDefyrtarn
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire22
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire23
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire20
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire26
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire27
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire24
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire25
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Gaze
-    tags:
-        name: Gaze
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Nanga
-    tags:
-        name: Nanga
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Oknstak_sud-est
-    tags:
-        name: Oknstak, sud-est
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Topolt
-    tags:
-        name: Topolt
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Tyflae
-    tags:
-        name: Tyflae
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Gnosia
-    tags:
-        name: Gnosia
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Nedachur
-    tags:
-        name: Nedachur
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Khangan
-    tags:
-        name: Khangan
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Marganei
-    tags:
-        name: Marganei
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: gjytlo1
-    tags:
-        name: gjytlo1
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire18_sud
-    tags:
-        name: Empire, sud
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Oknstak_nord-est
-    tags:
-        name: Oknstak, nord-est
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Quetzalcito
-    tags:
-        name: Quetzalcito
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: kjildorie1
-    tags:
-        name: kjildorie1
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Fogmalis
-    tags:
-        name: Fogmalis
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Lokatlic
-    tags:
-        name: Lokatlic
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire17
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire15
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire14
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire13
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire12
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire11
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire10
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Holzschattt
-    tags:
-        name: Holzschattt
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Frilap
-    tags:
-        name: Frilap
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Langskraent
-    tags:
-        name: Langskraent
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Sisserit
-    tags:
-        name: Sisserit
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire19
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire3
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire2
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire16_nord
-    tags:
-        name: Empire, nord
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Oknstak_sud
-    tags:
-        name: Oknstak, sud
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire7
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire6
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Pistakia
-    tags:
-        name: Pistakia
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire4
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Hiroko_sud
-    tags:
-        name: Hiroko, sud
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Freyern
-    tags:
-        name: Freyern
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Dodoltia
-    tags:
-        name: Dodoltia
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire8
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Valtoria
-    tags:
-        name: Valtoria
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Treoer_ouest
-    tags:
-        name: Treoer, ouest
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Smyrne
-    tags:
-        name: Smyrne
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Jotland
-    tags:
-        name: Jotland
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Skaeborg
-    tags:
-        name: Skaeborg
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Ripar
-    tags:
-        name: Ripar
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Haselm
-    tags:
-        name: Haselm
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Dredzieg
-    tags:
-        name: Dredzieg
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Huitzilxochtzin
-    tags:
-        name: Huitzilxochtzin
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Mountstrand
-    tags:
-        name: Mountstrand
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Rhumio
-    tags:
-        name: Rhumio
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Ioch
-    tags:
-        name: Ioch
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Chendo
-    tags:
-        name: Chendo
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Aneth
-    tags:
-        name: Aneth
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Antinoe
-    tags:
-        name: Antinoe
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Zegar
-    tags:
-        name: Zegar
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Lerroyo
-    tags:
-        name: Lerroyo
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Tanatla
-    tags:
-        name: Tanatla
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Solhurg
-    tags:
-        name: Solhurg
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Gheneb
-    tags:
-        name: Gheneb
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Tamileth
-    tags:
-        name: Tamileth
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Oknstak_nord
-    tags:
-        name: Oknstak, nord
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Texoco
-    tags:
-        name: Texoco
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Illahun
-    tags:
-        name: Illahun
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Morkeskov
-    tags:
-        name: Morkeskov
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: okoti2
-    tags:
-        name: okoti2
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Wang
-    tags:
-        name: Wang
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: okoti1
-    tags:
-        name: okoti1
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Eneassar
-    tags:
-        name: Eneassar
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Quictali
-    tags:
-        name: Quictali
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Gari
-    tags:
-        name: Gari
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Quantalamio
-    tags:
-        name: Quantalamio
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: marais1
-    tags:
-        name: marais1
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: marais2
-    tags:
-        name: marais2
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: marais3
-    tags:
-        name: marais3
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: marais4
-    tags:
-        name: marais4
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: marais5
-    tags:
-        name: marais5
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: marais6
-    tags:
-        name: marais6
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: marais7
-    tags:
-        name: marais7
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: marais8
-    tags:
-        name: marais8
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Artos
-    tags:
-        name: Artos
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: nuema1
-    tags:
-        name: nuema1
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: nuema2
-    tags:
-        name: nuema2
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: terreLibre2
-    tags:
-        name: terreLibre2
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Meem
-    tags:
-        name: Meem
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Xodgorod
-    tags:
-        name: Xodgorod
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Versghala
-    tags:
-        name: Versghala
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Mikoma
-    tags:
-        name: Mikoma
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Maro_est
-    tags:
-        name: Maro, est
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Nekhen_est
-    tags:
-        name: Nekhen, est
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Tyrstadt
-    tags:
-        name: Tyrstadt
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Nekhen_ouest
-    tags:
-        name: Nekhen, ouest
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Ronehym_nord
-    tags:
-        name: Ronehym, nord
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Haixi
-    tags:
-        name: Haixi
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire30
-    tags:
-        name: Empire, encore
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Chitznea
-    tags:
-        name: Chitznea
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Treoer_est
-    tags:
-        name: Treoer, est
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Lamactala
-    tags:
-        name: Lamactala
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire1
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Migakala
-    tags:
-        name: Migakala
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Crothstadt
-    tags:
-        name: Crothstadt
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Oknstak_est
-    tags:
-        name: Oknstak, est
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Utten
-    tags:
-        name: Utten
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Ronehym_sud
-    tags:
-        name: Ronehym, sud
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Skjoldrund
-    tags:
-        name: Skjoldrund
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Kezquatilco
-    tags:
-        name: Kezquatilco
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Tlahuicoli
-    tags:
-        name: Tlahuicoli
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Itilcotzutica
-    tags:
-        name: Itilcotzutica
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Snassia
-    tags:
-        name: Snassia
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Cafeya
-    tags:
-        name: Cafeya
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire5
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: terreLibre1
-    tags:
-        name: terreLibre1
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Cacaotica
-    tags:
-        name: Cacaotica
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Tara
-    tags:
-        name: Tara
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Kloctala
-    tags:
-        name: Kloctala
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Gada
-    tags:
-        name: Gada
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Fjordburg
-    tags:
-        name: Fjordburg
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Ossitus
-    tags:
-        name: Ossitus
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: amazone3
-    tags:
-        name: amazone3
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Kobaya
-    tags:
-        name: Kobaya
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: amazone1
-    tags:
-        name: amazone1
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Cuitlaxaochitzin
-    tags:
-        name: Cuitlaxaochitzin
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Phu
-    tags:
-        name: Phu
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Tamano_ouest
-    tags:
-        name: Tamano, ouest
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Tebtunis
-    tags:
-        name: Tebtunis
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Vultica
-    tags:
-        name: Vultica
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire9
-    tags:
-        name: Empire
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Kuestaltico
-    tags:
-        name: Kuestaltico
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Folgendeburg_sud
-    tags:
-        name: Folgendeburg, sud
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Mayaka
-    tags:
-        name: Mayaka
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Dam
-    tags:
-        name: Dam
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Kipalta
-    tags:
-        name: Kipalta
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Hiroko_nord
-    tags:
-        name: Hiroko, nord
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Tloxcolt
-    tags:
-        name: Tloxcolt
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Queztatican
-    tags:
-        name: Queztatican
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Jyrna_nord
-    tags:
-        name: Jyrna, nord
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Trauestadt
-    tags:
-        name: Trauestadt
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Toluca
-    tags:
-        name: Toluca
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: xodgorod1
-    tags:
-        name: xodgorod1
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Ixtiltia
-    tags:
-        name: Ixtiltia
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Eldorado
-    tags:
-        name: Eldorado
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Gotso
-    tags:
-        name: Gotso
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Dunhak
-    tags:
-        name: Dunhak
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Erebas
-    tags:
-        name: Erebas
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Krotekes
-    tags:
-        name: Krotekes
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Aegirstrom
-    tags:
-        name: Aegirstrom
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: sylmen2
-    tags:
-        name: sylmen2
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: sylmen1
-    tags:
-        name: sylmen1
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Inapicata
-    tags:
-        name: Inapicata
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Urioktatloc
-    tags:
-        name: Urioktatloc
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Treoer_nord
-    tags:
-        name: Treoer, nord
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Huemac
-    tags:
-        name: Huemac
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Volteme
-    tags:
-        name: Volteme
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Laen
-    tags:
-        name: Laen
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Eisenstadt
-    tags:
-        name: Eisenstadt
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Erop
-    tags:
-        name: Erop
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Mudgol
-    tags:
-        name: Mudgol
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Folgendeburg_nord
-    tags:
-        name: Folgendeburg, nord
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Moonhurg
-    tags:
-        name: Moonhurg
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Panteria
-    tags:
-        name: Panteria
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Dobbelt
-    tags:
-        name: Dobbelt
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Tsang
-    tags:
-        name: Tsang
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: amazone2
-    tags:
-        name: amazone2
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Dohilien
-    tags:
-        name: Dohilien
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Tamano_est
-    tags:
-        name: Tamano, est
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Krutsebe
-    tags:
-        name: Krutsebe
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Dobethem
-    tags:
-        name: Dobethem
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Olteques
-    tags:
-        name: Olteques
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Jyrna_sud
-    tags:
-        name: Jyrna, sud
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Tabasco
-    tags:
-        name: Tabasco
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Kuzcoto
-    tags:
-        name: Kuzcoto
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Semeko
-    tags:
-        name: Semeko
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Cuxiltia
-    tags:
-        name: Cuxiltia
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Bod
-    tags:
-        name: Bod
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Dolang
-    tags:
-        name: Dolang
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: MehaHafen
-    tags:
-        name: MehaHafen
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Trokunga_sud
-    tags:
-        name: Trokunga, sud
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire21_ouest
-    tags:
-        name: Empire, ouest
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Lovodun
-    tags:
-        name: Lovodun
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Konoy
-    tags:
-        name: Konoy
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire21_est
-    tags:
-        name: Empire, est
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: empire16_sud
-    tags:
-        name: Empire, sud
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Sona
-    tags:
-        name: Sona
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Oknstak_sud-ouest
-    tags:
-        name: Oknstak, sud-ouest
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Maro_ouest
-    tags:
-        name: Maro, ouest
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Bedgong
-    tags:
-        name: Bedgong
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Long
-    tags:
-        name: Long
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Capetaender
-    tags:
-        name: Capetaender
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Limi
-    tags:
-        name: Limi
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Ganeshia
-    tags:
-        name: Ganeshia
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Nekhen_nord
-    tags:
-        name: Nekhen, nord
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Rotland
-    tags:
-        name: Rotland
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Trokunga_nord
-    tags:
-        name: Trokunga, nord
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Quirnoca
-    tags:
-        name: Quirnoca
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Yggraburg
-    tags:
-        name: Yggraburg
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Nekhen_sud
-    tags:
-        name: Nekhen, sud
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Neferstia
-    tags:
-        name: Neferstia
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Nylandsby
-    tags:
-        name: Nylandsby
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Korlt
-    tags:
-        name: Korlt
-    properties:
-        civils: 20000
-        soldiers: 1000
-
--   id: Korum
-    tags:
-        name: Korum
-    properties:
-        civils: 20000
-        soldiers: 1000
+map:
+    file: 'map.svg'
+default:
+    tags:
+        name: Nameless
+        faction: Barbarians
+    properties:
+        civils: 0
+        soldiers: 0
+    formulas:
+        civils: civils * 1.05 + soldiers * 0.05
+        soldiers: soldiers + civils * 0.01
+    deductions:
+        population: civils + soldiers
+zones:
+    -   id: thragypto1
+        tags:
+            name: thragypto1
+        properties:
+            civils: 25693
+            soldiers: 2567
+
+    -   id: gjytlo2
+        tags:
+            name: gjytlo2
+        properties:
+            civils: 30562
+            soldiers: 3054
+
+    -   id: Neandortia
+        tags:
+            name: Neandortia
+        properties:
+            civils: 28767
+            soldiers: 2874
+
+    -   id: Nuen
+        tags:
+            name: Nuen
+        properties:
+            civils: 15396
+            soldiers: 1537
+
+    -   id: Nopaltzin
+        tags:
+            name: Nopaltzin
+        properties:
+            civils: 26883
+            soldiers: 2686
+
+    -   id: Badak
+        tags:
+            name: Badak
+        properties:
+            civils: 26249
+            soldiers: 2622
+
+    -   id: kjildorie2
+        tags:
+            name: kjildorie2
+        properties:
+            civils: 3975
+            soldiers: 395
+
+    -   id: Issy
+        tags:
+            name: Issy
+        properties:
+            civils: 28689
+            soldiers: 2866
+
+    -   id: Tezozozomos
+        tags:
+            name: Tezozozomos
+        properties:
+            civils: 24921
+            soldiers: 2490
+
+    -   id: Lotcatlic
+        tags:
+            name: Lotcatlic
+        properties:
+            civils: 17898
+            soldiers: 1787
+
+    -   id: empire18_nord
+        tags:
+            name: Empire, nord
+        properties:
+            civils: 7423
+            soldiers: 740
+
+    -   id: Grovburg
+        tags:
+            name: Grovburg
+        properties:
+            civils: 149
+            soldiers: 12
+
+    -   id: Kham
+        tags:
+            name: Kham
+        properties:
+            civils: 5551
+            soldiers: 553
+
+    -   id: Cripiteng
+        tags:
+            name: Cripiteng
+        properties:
+            civils: 10832
+            soldiers: 1081
+
+    -   id: Volotir
+        tags:
+            name: Volotir
+        properties:
+            civils: 24948
+            soldiers: 2492
+
+    -   id: Teeb
+        tags:
+            name: Teeb
+        properties:
+            civils: 15357
+            soldiers: 1533
+
+    -   id: Yenhal
+        tags:
+            name: Yenhal
+        properties:
+            civils: 15382
+            soldiers: 1536
+
+    -   id: Bidnar
+        tags:
+            name: Bidnar
+        properties:
+            civils: 27230
+            soldiers: 2721
+
+    -   id: Okob
+        tags:
+            name: Okob
+        properties:
+            civils: 31888
+            soldiers: 3186
+
+    -   id: empire28
+        tags:
+            name: Empire
+        properties:
+            civils: 14071
+            soldiers: 1405
+
+    -   id: empire29
+        tags:
+            name: Empire
+        properties:
+            civils: 24022
+            soldiers: 2400
+
+    -   id: BlaesenDefyrtarn
+        tags:
+            name: BlaesenDefyrtarn
+        properties:
+            civils: 11119
+            soldiers: 1109
+
+    -   id: empire22
+        tags:
+            name: Empire
+        properties:
+            civils: 7601
+            soldiers: 758
+
+    -   id: empire23
+        tags:
+            name: Empire
+        properties:
+            civils: 604
+            soldiers: 58
+
+    -   id: empire20
+        tags:
+            name: Empire
+        properties:
+            civils: 1684
+            soldiers: 166
+
+    -   id: empire26
+        tags:
+            name: Empire
+        properties:
+            civils: 16998
+            soldiers: 1697
+
+    -   id: empire27
+        tags:
+            name: Empire
+        properties:
+            civils: 31180
+            soldiers: 3116
+
+    -   id: empire24
+        tags:
+            name: Empire
+        properties:
+            civils: 10556
+            soldiers: 1053
+
+    -   id: empire25
+        tags:
+            name: Empire
+        properties:
+            civils: 28396
+            soldiers: 2837
+
+    -   id: Gaze
+        tags:
+            name: Gaze
+        properties:
+            civils: 14457
+            soldiers: 1443
+
+    -   id: Nanga
+        tags:
+            name: Nanga
+        properties:
+            civils: 27295
+            soldiers: 2727
+
+    -   id: Oknstak_sud-est
+        tags:
+            name: Oknstak, sud-est
+        properties:
+            civils: 10858
+            soldiers: 1083
+
+    -   id: Topolt
+        tags:
+            name: Topolt
+        properties:
+            civils: 22647
+            soldiers: 2262
+
+    -   id: Tyflae
+        tags:
+            name: Tyflae
+        properties:
+            civils: 24434
+            soldiers: 2441
+
+    -   id: Gnosia
+        tags:
+            name: Gnosia
+        properties:
+            civils: 2598
+            soldiers: 257
+
+    -   id: Nedachur
+        tags:
+            name: Nedachur
+        properties:
+            civils: 30164
+            soldiers: 3014
+
+    -   id: Khangan
+        tags:
+            name: Khangan
+        properties:
+            civils: 7306
+            soldiers: 728
+
+    -   id: Marganei
+        tags:
+            name: Marganei
+        properties:
+            civils: 27961
+            soldiers: 2794
+
+    -   id: gjytlo1
+        tags:
+            name: gjytlo1
+        properties:
+            civils: 15073
+            soldiers: 1505
+
+    -   id: empire18_sud
+        tags:
+            name: Empire, sud
+        properties:
+            civils: 3751
+            soldiers: 373
+
+    -   id: Oknstak_nord-est
+        tags:
+            name: Oknstak, nord-est
+        properties:
+            civils: 2148
+            soldiers: 212
+
+    -   id: Quetzalcito
+        tags:
+            name: Quetzalcito
+        properties:
+            civils: 22749
+            soldiers: 2272
+
+    -   id: kjildorie1
+        tags:
+            name: kjildorie1
+        properties:
+            civils: 24283
+            soldiers: 2426
+
+    -   id: Fogmalis
+        tags:
+            name: Fogmalis
+        properties:
+            civils: 16773
+            soldiers: 1675
+
+    -   id: Lokatlic
+        tags:
+            name: Lokatlic
+        properties:
+            civils: 21604
+            soldiers: 2158
+
+    -   id: empire17
+        tags:
+            name: Empire
+        properties:
+            civils: 24760
+            soldiers: 2474
+
+    -   id: empire15
+        tags:
+            name: Empire
+        properties:
+            civils: 423
+            soldiers: 40
+
+    -   id: empire14
+        tags:
+            name: Empire
+        properties:
+            civils: 12635
+            soldiers: 1261
+
+    -   id: empire13
+        tags:
+            name: Empire
+        properties:
+            civils: 24208
+            soldiers: 2418
+
+    -   id: empire12
+        tags:
+            name: Empire
+        properties:
+            civils: 22381
+            soldiers: 2236
+
+    -   id: empire11
+        tags:
+            name: Empire
+        properties:
+            civils: 26958
+            soldiers: 2693
+
+    -   id: empire10
+        tags:
+            name: Empire
+        properties:
+            civils: 21095
+            soldiers: 2107
+
+    -   id: Holzschattt
+        tags:
+            name: Holzschattt
+        properties:
+            civils: 8646
+            soldiers: 862
+
+    -   id: Frilap
+        tags:
+            name: Frilap
+        properties:
+            civils: 13286
+            soldiers: 1326
+
+    -   id: Langskraent
+        tags:
+            name: Langskraent
+        properties:
+            civils: 12708
+            soldiers: 1268
+
+    -   id: Sisserit
+        tags:
+            name: Sisserit
+        properties:
+            civils: 21049
+            soldiers: 2102
+
+    -   id: empire19
+        tags:
+            name: Empire
+        properties:
+            civils: 28186
+            soldiers: 2816
+
+    -   id: empire3
+        tags:
+            name: Empire
+        properties:
+            civils: 26212
+            soldiers: 2619
+
+    -   id: empire2
+        tags:
+            name: Empire
+        properties:
+            civils: 11322
+            soldiers: 1130
+
+    -   id: empire16_nord
+        tags:
+            name: Empire, nord
+        properties:
+            civils: 32488
+            soldiers: 3246
+
+    -   id: Oknstak_sud
+        tags:
+            name: Oknstak, sud
+        properties:
+            civils: 12954
+            soldiers: 1293
+
+    -   id: empire7
+        tags:
+            name: Empire
+        properties:
+            civils: 18121
+            soldiers: 1810
+
+    -   id: empire6
+        tags:
+            name: Empire
+        properties:
+            civils: 17044
+            soldiers: 1702
+
+    -   id: Pistakia
+        tags:
+            name: Pistakia
+        properties:
+            civils: 4355
+            soldiers: 433
+
+    -   id: empire4
+        tags:
+            name: Empire
+        properties:
+            civils: 10982
+            soldiers: 1096
+
+    -   id: Hiroko_sud
+        tags:
+            name: Hiroko, sud
+        properties:
+            civils: 6922
+            soldiers: 690
+
+    -   id: Freyern
+        tags:
+            name: Freyern
+        properties:
+            civils: 27191
+            soldiers: 2717
+
+    -   id: Dodoltia
+        tags:
+            name: Dodoltia
+        properties:
+            civils: 15487
+            soldiers: 1546
+
+    -   id: empire8
+        tags:
+            name: Empire
+        properties:
+            civils: 23877
+            soldiers: 2385
+
+    -   id: Valtoria
+        tags:
+            name: Valtoria
+        properties:
+            civils: 10043
+            soldiers: 1002
+
+    -   id: Treoer_ouest
+        tags:
+            name: Treoer, ouest
+        properties:
+            civils: 10269
+            soldiers: 1024
+
+    -   id: Smyrne
+        tags:
+            name: Smyrne
+        properties:
+            civils: 20278
+            soldiers: 2025
+
+    -   id: Jotland
+        tags:
+            name: Jotland
+        properties:
+            civils: 14858
+            soldiers: 1483
+
+    -   id: Skaeborg
+        tags:
+            name: Skaeborg
+        properties:
+            civils: 12999
+            soldiers: 1297
+
+    -   id: Ripar
+        tags:
+            name: Ripar
+        properties:
+            civils: 20294
+            soldiers: 2027
+
+    -   id: Haselm
+        tags:
+            name: Haselm
+        properties:
+            civils: 19476
+            soldiers: 1945
+
+    -   id: Dredzieg
+        tags:
+            name: Dredzieg
+        properties:
+            civils: 15935
+            soldiers: 1591
+
+    -   id: Huitzilxochtzin
+        tags:
+            name: Huitzilxochtzin
+        properties:
+            civils: 6386
+            soldiers: 636
+
+    -   id: Mountstrand
+        tags:
+            name: Mountstrand
+        properties:
+            civils: 4838
+            soldiers: 481
+
+    -   id: Rhumio
+        tags:
+            name: Rhumio
+        properties:
+            civils: 19851
+            soldiers: 1983
+
+    -   id: Ioch
+        tags:
+            name: Ioch
+        properties:
+            civils: 16843
+            soldiers: 1682
+
+    -   id: Chendo
+        tags:
+            name: Chendo
+        properties:
+            civils: 8695
+            soldiers: 867
+
+    -   id: Aneth
+        tags:
+            name: Aneth
+        properties:
+            civils: 1036
+            soldiers: 101
+
+    -   id: Antinoe
+        tags:
+            name: Antinoe
+        properties:
+            civils: 28406
+            soldiers: 2838
+
+    -   id: Zegar
+        tags:
+            name: Zegar
+        properties:
+            civils: 26928
+            soldiers: 2690
+
+    -   id: Lerroyo
+        tags:
+            name: Lerroyo
+        properties:
+            civils: 31297
+            soldiers: 3127
+
+    -   id: Tanatla
+        tags:
+            name: Tanatla
+        properties:
+            civils: 26391
+            soldiers: 2637
+
+    -   id: Solhurg
+        tags:
+            name: Solhurg
+        properties:
+            civils: 6365
+            soldiers: 634
+
+    -   id: Gheneb
+        tags:
+            name: Gheneb
+        properties:
+            civils: 20508
+            soldiers: 2048
+
+    -   id: Tamileth
+        tags:
+            name: Tamileth
+        properties:
+            civils: 27369
+            soldiers: 2734
+
+    -   id: Oknstak_nord
+        tags:
+            name: Oknstak, nord
+        properties:
+            civils: 31526
+            soldiers: 3150
+
+    -   id: Texoco
+        tags:
+            name: Texoco
+        properties:
+            civils: 19527
+            soldiers: 1950
+
+    -   id: Illahun
+        tags:
+            name: Illahun
+        properties:
+            civils: 27205
+            soldiers: 2718
+
+    -   id: Morkeskov
+        tags:
+            name: Morkeskov
+        properties:
+            civils: 5411
+            soldiers: 539
+
+    -   id: okoti2
+        tags:
+            name: okoti2
+        properties:
+            civils: 37
+            soldiers: 1
+
+    -   id: Wang
+        tags:
+            name: Wang
+        properties:
+            civils: 28722
+            soldiers: 2870
+
+    -   id: okoti1
+        tags:
+            name: okoti1
+        properties:
+            civils: 12783
+            soldiers: 1276
+
+    -   id: Eneassar
+        tags:
+            name: Eneassar
+        properties:
+            civils: 2988
+            soldiers: 296
+
+    -   id: Quictali
+        tags:
+            name: Quictali
+        properties:
+            civils: 27390
+            soldiers: 2737
+
+    -   id: Gari
+        tags:
+            name: Gari
+        properties:
+            civils: 13143
+            soldiers: 1312
+
+    -   id: Quantalamio
+        tags:
+            name: Quantalamio
+        properties:
+            civils: 8499
+            soldiers: 847
+
+    -   id: marais1
+        tags:
+            name: marais1
+        properties:
+            civils: 30432
+            soldiers: 3041
+
+    -   id: marais2
+        tags:
+            name: marais2
+        properties:
+            civils: 30673
+            soldiers: 3065
+
+    -   id: marais3
+        tags:
+            name: marais3
+        properties:
+            civils: 28763
+            soldiers: 2874
+
+    -   id: marais4
+        tags:
+            name: marais4
+        properties:
+            civils: 1453
+            soldiers: 143
+
+    -   id: marais5
+        tags:
+            name: marais5
+        properties:
+            civils: 12112
+            soldiers: 1209
+
+    -   id: marais6
+        tags:
+            name: marais6
+        properties:
+            civils: 32328
+            soldiers: 3230
+
+    -   id: marais7
+        tags:
+            name: marais7
+        properties:
+            civils: 22665
+            soldiers: 2264
+
+    -   id: marais8
+        tags:
+            name: marais8
+        properties:
+            civils: 14362
+            soldiers: 1434
+
+    -   id: Artos
+        tags:
+            name: Artos
+        properties:
+            civils: 14267
+            soldiers: 1424
+
+    -   id: nuema1
+        tags:
+            name: nuema1
+        properties:
+            civils: 19452
+            soldiers: 1943
+
+    -   id: nuema2
+        tags:
+            name: nuema2
+        properties:
+            civils: 32385
+            soldiers: 3236
+
+    -   id: terreLibre2
+        tags:
+            name: terreLibre2
+        properties:
+            civils: 14070
+            soldiers: 1405
+
+    -   id: Meem
+        tags:
+            name: Meem
+        properties:
+            civils: 23092
+            soldiers: 2307
+
+    -   id: Xodgorod
+        tags:
+            name: Xodgorod
+        properties:
+            civils: 1113
+            soldiers: 109
+
+    -   id: Versghala
+        tags:
+            name: Versghala
+        properties:
+            civils: 27893
+            soldiers: 2787
+
+    -   id: Mikoma
+        tags:
+            name: Mikoma
+        properties:
+            civils: 29823
+            soldiers: 2980
+
+    -   id: Maro_est
+        tags:
+            name: Maro, est
+        properties:
+            civils: 12076
+            soldiers: 1205
+
+    -   id: Nekhen_est
+        tags:
+            name: Nekhen, est
+        properties:
+            civils: 15372
+            soldiers: 1535
+
+    -   id: Tyrstadt
+        tags:
+            name: Tyrstadt
+        properties:
+            civils: 12517
+            soldiers: 1249
+
+    -   id: Nekhen_ouest
+        tags:
+            name: Nekhen, ouest
+        properties:
+            civils: 21508
+            soldiers: 2148
+
+    -   id: Ronehym_nord
+        tags:
+            name: Ronehym, nord
+        properties:
+            civils: 32258
+            soldiers: 3223
+
+    -   id: Haixi
+        tags:
+            name: Haixi
+        properties:
+            civils: 25481
+            soldiers: 2546
+
+    -   id: empire30
+        tags:
+            name: Empire, encore
+        properties:
+            civils: 15003
+            soldiers: 1498
+
+    -   id: Chitznea
+        tags:
+            name: Chitznea
+        properties:
+            civils: 18923
+            soldiers: 1890
+
+    -   id: Treoer_est
+        tags:
+            name: Treoer, est
+        properties:
+            civils: 7779
+            soldiers: 775
+
+    -   id: Lamactala
+        tags:
+            name: Lamactala
+        properties:
+            civils: 15669
+            soldiers: 1564
+
+    -   id: empire1
+        tags:
+            name: Empire
+        properties:
+            civils: 9551
+            soldiers: 953
+
+    -   id: Migakala
+        tags:
+            name: Migakala
+        properties:
+            civils: 13693
+            soldiers: 1367
+
+    -   id: Crothstadt
+        tags:
+            name: Crothstadt
+        properties:
+            civils: 32551
+            soldiers: 3253
+
+    -   id: Oknstak_est
+        tags:
+            name: Oknstak, est
+        properties:
+            civils: 16022
+            soldiers: 1600
+
+    -   id: Utten
+        tags:
+            name: Utten
+        properties:
+            civils: 13493
+            soldiers: 1347
+
+    -   id: Ronehym_sud
+        tags:
+            name: Ronehym, sud
+        properties:
+            civils: 28032
+            soldiers: 2801
+
+    -   id: Skjoldrund
+        tags:
+            name: Skjoldrund
+        properties:
+            civils: 9373
+            soldiers: 935
+
+    -   id: Kezquatilco
+        tags:
+            name: Kezquatilco
+        properties:
+            civils: 4900
+            soldiers: 488
+
+    -   id: Tlahuicoli
+        tags:
+            name: Tlahuicoli
+        properties:
+            civils: 13582
+            soldiers: 1356
+
+    -   id: Itilcotzutica
+        tags:
+            name: Itilcotzutica
+        properties:
+            civils: 13789
+            soldiers: 1376
+
+    -   id: Snassia
+        tags:
+            name: Snassia
+        properties:
+            civils: 28584
+            soldiers: 2856
+
+    -   id: Cafeya
+        tags:
+            name: Cafeya
+        properties:
+            civils: 28071
+            soldiers: 2805
+
+    -   id: empire5
+        tags:
+            name: Empire
+        properties:
+            civils: 10398
+            soldiers: 1037
+
+    -   id: terreLibre1
+        tags:
+            name: terreLibre1
+        properties:
+            civils: 23381
+            soldiers: 2336
+
+    -   id: Cacaotica
+        tags:
+            name: Cacaotica
+        properties:
+            civils: 13374
+            soldiers: 1335
+
+    -   id: Tara
+        tags:
+            name: Tara
+        properties:
+            civils: 17768
+            soldiers: 1774
+
+    -   id: Kloctala
+        tags:
+            name: Kloctala
+        properties:
+            civils: 2821
+            soldiers: 280
+
+    -   id: Gada
+        tags:
+            name: Gada
+        properties:
+            civils: 13575
+            soldiers: 1355
+
+    -   id: Fjordburg
+        tags:
+            name: Fjordburg
+        properties:
+            civils: 4958
+            soldiers: 493
+
+    -   id: Ossitus
+        tags:
+            name: Ossitus
+        properties:
+            civils: 6933
+            soldiers: 691
+
+    -   id: amazone3
+        tags:
+            name: amazone3
+        properties:
+            civils: 13957
+            soldiers: 1393
+
+    -   id: Kobaya
+        tags:
+            name: Kobaya
+        properties:
+            civils: 26028
+            soldiers: 2600
+
+    -   id: amazone1
+        tags:
+            name: amazone1
+        properties:
+            civils: 8105
+            soldiers: 808
+
+    -   id: Cuitlaxaochitzin
+        tags:
+            name: Cuitlaxaochitzin
+        properties:
+            civils: 7612
+            soldiers: 759
+
+    -   id: Phu
+        tags:
+            name: Phu
+        properties:
+            civils: 18788
+            soldiers: 1876
+
+    -   id: Tamano_ouest
+        tags:
+            name: Tamano, ouest
+        properties:
+            civils: 26922
+            soldiers: 2690
+
+    -   id: Tebtunis
+        tags:
+            name: Tebtunis
+        properties:
+            civils: 27549
+            soldiers: 2752
+
+    -   id: Vultica
+        tags:
+            name: Vultica
+        properties:
+            civils: 1369
+            soldiers: 134
+
+    -   id: empire9
+        tags:
+            name: Empire
+        properties:
+            civils: 27405
+            soldiers: 2738
+
+    -   id: Kuestaltico
+        tags:
+            name: Kuestaltico
+        properties:
+            civils: 7397
+            soldiers: 737
+
+    -   id: Folgendeburg_sud
+        tags:
+            name: Folgendeburg, sud
+        properties:
+            civils: 16096
+            soldiers: 1607
+
+    -   id: Mayaka
+        tags:
+            name: Mayaka
+        properties:
+            civils: 16984
+            soldiers: 1696
+
+    -   id: Dam
+        tags:
+            name: Dam
+        properties:
+            civils: 9329
+            soldiers: 930
+
+    -   id: Kipalta
+        tags:
+            name: Kipalta
+        properties:
+            civils: 5265
+            soldiers: 524
+
+    -   id: Hiroko_nord
+        tags:
+            name: Hiroko, nord
+        properties:
+            civils: 28095
+            soldiers: 2807
+
+    -   id: Tloxcolt
+        tags:
+            name: Tloxcolt
+        properties:
+            civils: 20394
+            soldiers: 2037
+
+    -   id: Queztatican
+        tags:
+            name: Queztatican
+        properties:
+            civils: 6367
+            soldiers: 634
+
+    -   id: Jyrna_nord
+        tags:
+            name: Jyrna, nord
+        properties:
+            civils: 21995
+            soldiers: 2197
+
+    -   id: Trauestadt
+        tags:
+            name: Trauestadt
+        properties:
+            civils: 17771
+            soldiers: 1775
+
+    -   id: Toluca
+        tags:
+            name: Toluca
+        properties:
+            civils: 6233
+            soldiers: 621
+
+    -   id: xodgorod1
+        tags:
+            name: xodgorod1
+        properties:
+            civils: 7134
+            soldiers: 711
+
+    -   id: Ixtiltia
+        tags:
+            name: Ixtiltia
+        properties:
+            civils: 26879
+            soldiers: 2685
+
+    -   id: Eldorado
+        tags:
+            name: Eldorado
+        properties:
+            civils: 6829
+            soldiers: 680
+
+    -   id: Gotso
+        tags:
+            name: Gotso
+        properties:
+            civils: 14092
+            soldiers: 1407
+
+    -   id: Dunhak
+        tags:
+            name: Dunhak
+        properties:
+            civils: 17470
+            soldiers: 1745
+
+    -   id: Erebas
+        tags:
+            name: Erebas
+        properties:
+            civils: 2875
+            soldiers: 285
+
+    -   id: Krotekes
+        tags:
+            name: Krotekes
+        properties:
+            civils: 27148
+            soldiers: 2712
+
+    -   id: Aegirstrom
+        tags:
+            name: Aegirstrom
+        properties:
+            civils: 4729
+            soldiers: 470
+
+    -   id: sylmen2
+        tags:
+            name: sylmen2
+        properties:
+            civils: 9125
+            soldiers: 910
+
+    -   id: sylmen1
+        tags:
+            name: sylmen1
+        properties:
+            civils: 28136
+            soldiers: 2811
+
+    -   id: Inapicata
+        tags:
+            name: Inapicata
+        properties:
+            civils: 7090
+            soldiers: 707
+
+    -   id: Urioktatloc
+        tags:
+            name: Urioktatloc
+        properties:
+            civils: 17867
+            soldiers: 1784
+
+    -   id: Treoer_nord
+        tags:
+            name: Treoer, nord
+        properties:
+            civils: 13378
+            soldiers: 1335
+
+    -   id: Huemac
+        tags:
+            name: Huemac
+        properties:
+            civils: 190
+            soldiers: 17
+
+    -   id: Volteme
+        tags:
+            name: Volteme
+        properties:
+            civils: 2133
+            soldiers: 211
+
+    -   id: Laen
+        tags:
+            name: Laen
+        properties:
+            civils: 18334
+            soldiers: 1831
+
+    -   id: Eisenstadt
+        tags:
+            name: Eisenstadt
+        properties:
+            civils: 29956
+            soldiers: 2993
+
+    -   id: Erop
+        tags:
+            name: Erop
+        properties:
+            civils: 9893
+            soldiers: 987
+
+    -   id: Mudgol
+        tags:
+            name: Mudgol
+        properties:
+            civils: 7360
+            soldiers: 734
+
+    -   id: Folgendeburg_nord
+        tags:
+            name: Folgendeburg, nord
+        properties:
+            civils: 7122
+            soldiers: 710
+
+    -   id: Moonhurg
+        tags:
+            name: Moonhurg
+        properties:
+            civils: 18620
+            soldiers: 1860
+
+    -   id: Panteria
+        tags:
+            name: Panteria
+        properties:
+            civils: 29884
+            soldiers: 2986
+
+    -   id: Dobbelt
+        tags:
+            name: Dobbelt
+        properties:
+            civils: 19026
+            soldiers: 1900
+
+    -   id: Tsang
+        tags:
+            name: Tsang
+        properties:
+            civils: 21242
+            soldiers: 2122
+
+    -   id: amazone2
+        tags:
+            name: amazone2
+        properties:
+            civils: 6245
+            soldiers: 622
+
+    -   id: Dohilien
+        tags:
+            name: Dohilien
+        properties:
+            civils: 18501
+            soldiers: 1848
+
+    -   id: Tamano_est
+        tags:
+            name: Tamano, est
+        properties:
+            civils: 31499
+            soldiers: 3147
+
+    -   id: Krutsebe
+        tags:
+            name: Krutsebe
+        properties:
+            civils: 12526
+            soldiers: 1250
+
+    -   id: Dobethem
+        tags:
+            name: Dobethem
+        properties:
+            civils: 17106
+            soldiers: 1708
+
+    -   id: Olteques
+        tags:
+            name: Olteques
+        properties:
+            civils: 9211
+            soldiers: 919
+
+    -   id: Jyrna_sud
+        tags:
+            name: Jyrna, sud
+        properties:
+            civils: 5730
+            soldiers: 571
+
+    -   id: Tabasco
+        tags:
+            name: Tabasco
+        properties:
+            civils: 30429
+            soldiers: 3040
+
+    -   id: Kuzcoto
+        tags:
+            name: Kuzcoto
+        properties:
+            civils: 15117
+            soldiers: 1509
+
+    -   id: Semeko
+        tags:
+            name: Semeko
+        properties:
+            civils: 9294
+            soldiers: 927
+
+    -   id: Cuxiltia
+        tags:
+            name: Cuxiltia
+        properties:
+            civils: 30677
+            soldiers: 3065
+
+    -   id: Bod
+        tags:
+            name: Bod
+        properties:
+            civils: 4225
+            soldiers: 420
+
+    -   id: Dolang
+        tags:
+            name: Dolang
+        properties:
+            civils: 25002
+            soldiers: 2498
+
+    -   id: MehaHafen
+        tags:
+            name: MehaHafen
+        properties:
+            civils: 21183
+            soldiers: 2116
+
+    -   id: Trokunga_sud
+        tags:
+            name: Trokunga, sud
+        properties:
+            civils: 24517
+            soldiers: 2449
+
+    -   id: empire21_ouest
+        tags:
+            name: Empire, ouest
+        properties:
+            civils: 30151
+            soldiers: 3013
+
+    -   id: Lovodun
+        tags:
+            name: Lovodun
+        properties:
+            civils: 24434
+            soldiers: 2441
+
+    -   id: Konoy
+        tags:
+            name: Konoy
+        properties:
+            civils: 29025
+            soldiers: 2900
+
+    -   id: empire21_est
+        tags:
+            name: Empire, est
+        properties:
+            civils: 14456
+            soldiers: 1443
+
+    -   id: empire16_sud
+        tags:
+            name: Empire, sud
+        properties:
+            civils: 17380
+            soldiers: 1736
+
+    -   id: Sona
+        tags:
+            name: Sona
+        properties:
+            civils: 10495
+            soldiers: 1047
+
+    -   id: Oknstak_sud-ouest
+        tags:
+            name: Oknstak, sud-ouest
+        properties:
+            civils: 20079
+            soldiers: 2005
+
+    -   id: Maro_ouest
+        tags:
+            name: Maro, ouest
+        properties:
+            civils: 20946
+            soldiers: 2092
+
+    -   id: Bedgong
+        tags:
+            name: Bedgong
+        properties:
+            civils: 28551
+            soldiers: 2853
+
+    -   id: Long
+        tags:
+            name: Long
+        properties:
+            civils: 14712
+            soldiers: 1469
+
+    -   id: Capetaender
+        tags:
+            name: Capetaender
+        properties:
+            civils: 11535
+            soldiers: 1151
+
+    -   id: Limi
+        tags:
+            name: Limi
+        properties:
+            civils: 25821
+            soldiers: 2580
+
+    -   id: Ganeshia
+        tags:
+            name: Ganeshia
+        properties:
+            civils: 29083
+            soldiers: 2906
+
+    -   id: Nekhen_nord
+        tags:
+            name: Nekhen, nord
+        properties:
+            civils: 27913
+            soldiers: 2789
+
+    -   id: Rotland
+        tags:
+            name: Rotland
+        properties:
+            civils: 2753
+            soldiers: 273
+
+    -   id: Trokunga_nord
+        tags:
+            name: Trokunga, nord
+        properties:
+            civils: 21045
+            soldiers: 2102
+
+    -   id: Quirnoca
+        tags:
+            name: Quirnoca
+        properties:
+            civils: 23589
+            soldiers: 2356
+
+    -   id: Yggraburg
+        tags:
+            name: Yggraburg
+        properties:
+            civils: 7288
+            soldiers: 726
+
+    -   id: Nekhen_sud
+        tags:
+            name: Nekhen, sud
+        properties:
+            civils: 18389
+            soldiers: 1836
+
+    -   id: Neferstia
+        tags:
+            name: Neferstia
+        properties:
+            civils: 14735
+            soldiers: 1471
+
+    -   id: Nylandsby
+        tags:
+            name: Nylandsby
+        properties:
+            civils: 3043
+            soldiers: 302
+
+    -   id: Korlt
+        tags:
+            name: Korlt
+        properties:
+            civils: 8053
+            soldiers: 803
+
+    -   id: Korum
+        tags:
+            name: Korum
+        properties:
+            civils: 1862
+            soldiers: 184
 

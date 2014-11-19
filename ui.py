@@ -12,7 +12,6 @@ class Canvas(gtk.DrawingArea):
         self.set_size_request(600,400)
         self.connect('draw',Canvas.on_draw)
         self.bottom_left_position = (0.0,0.0)
-        self.pixelPerUnit = 60.0
         self.world = None
         
     def on_realize(self, emitter, event):
@@ -25,28 +24,19 @@ class Canvas(gtk.DrawingArea):
         print('drawing canvas')
 
         # clear widget
-        #context.set_source_rgb( 0.1, 0.0, 0.1 )
-        #context.set_operator(cairo.OPERATOR_SOURCE)
-        #context.paint()
-        
         context.set_source_rgb( 0.1, 0.0, 0.1 )
-        context.rectangle(0,0,100,100)
-        context.fill()
+        context.set_operator(cairo.OPERATOR_SOURCE)
         context.paint()
         
-        
-        
-        
         # paint widget
-        #if self.world:
-        #    context.set_operator(cairo.OPERATOR_OVER)
-        #    #context.set_line_width(3)
-        #    #context.set_line_join(cairo.LINE_JOIN_ROUND)
-        #    context.set_source_rgb( 1.0, 1.0, 1.0 )
-        #    #for zone_id,zone in self.world.zones():
-        #    #    tracepath.traceSvgPath( zone.path, context )
-        #    #    context.stroke()
-        #    context.paint()
+        if self.world:
+            context.set_operator(cairo.OPERATOR_OVER)
+            context.set_line_width(0.5)
+            context.set_line_join(cairo.LINE_JOIN_ROUND)
+            context.set_source_rgb( 1.0, 1.0, 1.0 )
+            for zone_id,zone in self.world.zones():
+                tracepath.traceSvgPath( zone.path, context )
+                context.stroke()
                 
         
     def setWorld(self, world):
@@ -62,15 +52,16 @@ class FeatureDisplayer( gtk.Box ):
         self.title.set_markup( "please click an entity" )
         self.add( self.title )
         
-        self.id_label = gtk.Label()
-        self.id_label.set_markup("")
+        self.id_label = gtk.Label( label="", xalign = 0, xpad=8 )
         self.add( self.id_label )
         
         #create tag list viewer
+        #self.add( gtk.Label( label="<b>Tags</b>", use_markup = True, xalign = 0, xpad=8) )
+        
         self.tag_store = gtk.ListStore( str, str )
         self.tag_tree_view = gtk.TreeView( model = self.tag_store )
         self.tag_tree_view.append_column( gtk.TreeViewColumn(
-                    "Variable",
+                    "Tag",
                     gtk.CellRendererText(),
                     text=0 ) )
         tag_value_cell = gtk.CellRendererText( editable=True )
@@ -79,13 +70,16 @@ class FeatureDisplayer( gtk.Box ):
                     tag_value_cell,
                     text=1 ) )
         tag_value_cell.connect( 'edited', self.on_tag_value_edited )
+        #self.tag_tree_view.set_headers_visible( False )
         self.add( self.tag_tree_view )
 
         #create property list viewer
+        #self.add( gtk.Label( label="<b>Properties</b>", use_markup = True, xalign = 0, xpad=8) )
+        
         self.property_store = gtk.ListStore( str, int, str )
         self.property_tree_view = gtk.TreeView( model = self.property_store )
         self.property_tree_view.append_column( gtk.TreeViewColumn(
-                    "Variable",
+                    "Property",
                     gtk.CellRendererText(),
                     text=0 ) )
         self.property_tree_view.append_column( gtk.TreeViewColumn(
@@ -96,13 +90,14 @@ class FeatureDisplayer( gtk.Box ):
                     "Formula",
                     gtk.CellRendererText( editable=True, style=pango.Style.ITALIC ),
                     text=2 ) )
+        #self.property_tree_view.set_headers_visible( False )
         self.add( self.property_tree_view )
 
     
     def set_entity( self, entity, entityId = None ):
         self.entity = entity
-        if 'name' in self.entity.tags:
-            entityName = self.entity.tags['name']
+        if self.entity.has_tag('name'):
+            entityName = self.entity.get_tag('name')
         self.title.set_markup( "<span variant=\"smallcaps\" size=\"xx-large\">%s</span>" % (entityName) )
         
         if( entityId != entityName ):
@@ -111,17 +106,17 @@ class FeatureDisplayer( gtk.Box ):
             self.id_label.set_markup("")
         
         self.tag_store.clear()
-        for tag in sorted(self.entity.tags.items()): #FIXME find a performance-happy iterator
-            self.tag_store.append( list(tag) )
+        for tag_id, tag in sorted(self.entity.tags()): #FIXME find a performance-happy iterator
+            self.tag_store.append( [ tag_id, tag.value ] )
             
         self.property_store.clear()
-        for p_id, p in self.entity.properties.items():
+        for p_id, p in self.entity.properties():
             self.property_store.append( [ p_id, p.value, "%s" % (str(p.update_formula)) ] )
             
     def set_tag_value( self, rowPath, newTagValue ):
         tag_id = self.tag_store[rowPath][0]
+        self.entity.set_tag( tag_id, newTagValue ) #TODO Use gobject-aware mutable string and connect the string 'muted' signal to the view
         self.tag_store[rowPath][1] = newTagValue
-        self.entity.tags[tag_id] = newTagValue #TODO Use gobject-aware mutable string and connect the string 'muted' signal to the view
     
     def on_tag_value_edited( self, cellRenderer, rowPath, newTagValue ):
         self.set_tag_value( rowPath, newTagValue )
