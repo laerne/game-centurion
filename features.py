@@ -27,8 +27,8 @@ class Feature( gobject.Object ):
     def __str__( self ):
         return str( self.value )
     
-    def __repr__( self ):
-        return "<Feature %s>" % str(self)
+    #def __repr__( self ):
+    #    return "<Feature %s>" % str(self)
     
     #def do_mutated( self, arg ):
     #    print( 'emit mutated', arg )
@@ -86,8 +86,8 @@ class StringFeature( Feature ):
     def _build_value( self, value ):
         return str(value)
         
-    def __repr__( self ):
-        return "<Feature %s>" % repr(self.value)
+    #def __repr__( self ):
+    #    return "<Feature %s>" % repr(self.value)
         
 
 #INTEGER_REGEX = re.compile("^[+-]?[0-9]+$")
@@ -115,7 +115,7 @@ def featurize( yamlValue ):
     #
     #return None
     
-    return PARSING_TYPE_DATA[ type(yamlValue) ]( yamlValue)
+    return PARSING_TYPE_DATA[ type(yamlValue) ]( yamlValue )
         
 
 if __name__ == '__main__':
@@ -126,15 +126,14 @@ if __name__ == '__main__':
     i.connect('mutated', on_new_value)
     i.value = 0
     
-    r = RatioFeature( "50%" )
+    r = RealFeature( 4.3 )
     r.connect('mutated', on_new_value )
     r.value = 0.1
-    r.value = "100%"
 
     s = StringFeature( "lol" )
     s.connect('mutated', on_new_value )
     s.value = "string"
 
 
-    for s in "1", "hello", "50%", "200%", "6", "3.1415", "Gnosia", "-42":
+    for s in 1, "hello", "50%", "Issy", 6, 3.1415, "Gnosia", -42:
         print( repr(s), repr(featurize(s) ) )

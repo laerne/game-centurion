@@ -12,6 +12,7 @@ import sympy.abc
 identity = sympy.abc.x
 
 
+#TODO def etree_flat_filter( filter_callback, expand_filter, node ):
 def etree_flat_filter(filter_callback, node):
     "Filter nodes of the XML ElementTree with function <filter_callback> and returns an iterator over the positive Node results."
     unexplored = [node]
@@ -128,7 +129,23 @@ class Zone:
         
     def tags( self ):
         yield from self._tags.items()
+    
+    @property
+    def path( self ):
+        return self._path
+        
+    @path.setter
+    def path( self, path ):
+        self._path = path
             
+    @property
+    def transformation( self ):
+        return self._transformation
+        
+    @transformation.setter
+    def transformation( self, transformation ):
+        self._transformation = transformation
+
 
 class World:
     "A game world"
@@ -138,7 +155,6 @@ class World:
     def parse_and_add( self, yamlfilename ):
         with open(yamlfilename) as cfg_file:
             zones_cfg = yaml.safe_load( cfg_file )
-            print(list(zones_cfg))
             
             svgfilename = zones_cfg['map']['file']
             svgfilename = helper.path_relative_to_file_directory( origin=yamlfilename, path=svgfilename )

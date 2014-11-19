@@ -1,5 +1,6 @@
 map:
     file: 'map.svg'
+    scale: 10
 default:
     tags:
         name: Nameless
