@@ -84,9 +84,11 @@ class FeatureDisplayer( gtk.Box ):
                     "Value",
                     property_value_cell,
                     text=1 ) )
+        property_formula_cell = gtk.CellRendererText( editable=True, style=pango.Style.ITALIC )
+        property_formula_cell.connect( 'edited', self.on_property_formula_edited )
         self.property_tree_view.append_column( gtk.TreeViewColumn(
                     "Formula",
-                    gtk.CellRendererText( editable=True, style=pango.Style.ITALIC ),
+                    property_formula_cell,
                     text=2 ) )
         self.add( self.property_tree_view )
         
@@ -94,11 +96,14 @@ class FeatureDisplayer( gtk.Box ):
         for feature, connection_id in self._connections:
             feature.disconnect( connection_id )
         self._connections = []
+        
+        self.tag_store.clear()
+        self.property_store.clear()
         self._entity = None
     
     def set_entity( self, entity, entityId = None ):
-        #if sef.entity != None:
-        #    self.remove_entity()
+        if self._entity != None:
+            self.remove_entity()
         self._entity = entity
         if self._entity.has_tag('name'):
             entityName = self._entity.get_tag('name')
@@ -109,25 +114,26 @@ class FeatureDisplayer( gtk.Box ):
         else:
             self.id_label.set_markup("")
         
-        self.tag_store.clear()
         for tag_id, tag in sorted(self._entity.tags()): #FIXME find a performance-happy iterator
             tag_iterator = self.tag_store.append( [ tag_id, tag.value ] )
             tag_path = self.tag_store.get_path( tag_iterator )
             
             tag_connection_id = tag.feature.connect( 'mutated', self.on_new_tag_value, tag_path )
-            if tag_id == 'name' :
-                name_connection_id = tag.feature.connect( 'mutated', self.on_new_name )
-            
             self._connections.append(( tag.feature, tag_connection_id ))
             
-        self.property_store.clear()
+            if tag_id == 'name' :
+                name_connection_id = tag.feature.connect( 'mutated', self.on_new_name )
+                self._connections.append(( tag.feature, name_connection_id ))
+
         for property_id, property in sorted(self._entity.properties()):
-            property_iterator = self.property_store.append( [ property_id, property.value, "%s" % (str(property.update_formula)) ] )
+            property_iterator = self.property_store.append( [ property_id, property.value, property.formula.text ] )
             property_path = self.property_store.get_path( property_iterator )
             
             property_connection_id = property.feature.connect( 'mutated', self.on_new_property_value, property_path )
+            self._connections.append(( property.feature, property_connection_id ))
             
-            #self._connections.append( feature, property_connection_id )
+            formula_connection_id = property.formula.connect( 'mutated', self.on_new_property_formula, property_path )
+            self._connections.append(( property.formula, formula_connection_id ))
             
     #tag handler
     def set_tag_value( self, rowPath, newTagValue ):
@@ -138,7 +144,6 @@ class FeatureDisplayer( gtk.Box ):
         self.set_tag_value( rowPath, newTagValue )
     
     def on_new_tag_value( self, emitter, newValue, tagPath ):
-        print( tagPath, "===", repr(tagPath), "|||", repr(emitter) )
         self.tag_store[tagPath][1] = newValue
         
     def on_new_name( self, emitter, newName ):
@@ -153,20 +158,18 @@ class FeatureDisplayer( gtk.Box ):
         self.set_property_value( rowPath, newpropertyValue )
     
     def on_new_property_value( self, emitter, newValue, propertyPath ):
-        print( propertyPath, "===", repr(propertyPath), "|||", repr(emitter) )
         self.property_store[propertyPath][1] = newValue
         
     #property formula handler
     def set_property_formula( self, rowPath, newpropertyFormula ):
         property_id = self.property_store[rowPath][0]
-        self._entity.set_property( property_id, newpropertyFormula )
+        self._entity.set_formula( property_id, newpropertyFormula )
     
-    def on_property_formula_edited( self, emitter, rowPath, newpropertyFormula ):
-        self.set_property_formula( rowPath, newpropertyFormula )
+    def on_property_formula_edited( self, emitter, rowPath, newPropertyFormula ):
+        self.set_property_formula( rowPath, newPropertyFormula )
     
-    def on_new_property_formula( self, emitter, newFormula, propertyPath ):
-        print( propertyPath, "===", repr(propertyPath), "|||", repr(emitter) )
-        self.property_store[propertyPath][1] = newFormula
+    def on_new_property_formula( self, emitter, newFormulaText, propertyPath ):
+        self.property_store[propertyPath][2] = newFormulaText
         
         
         
@@ -199,7 +202,7 @@ class MainWindow(gtk.Window):
         self.horizontal_box.pack_start(self.canvas, expand=True, fill=True, padding=0)
         
         self.features = FeatureDisplayer()
-        self.horizontal_box.pack_start(self.features, expand=True, fill=True, padding=0)
+        self.horizontal_box.pack_start(self.features, expand=False, fill=False, padding=0)
         
         self.connect('delete-event', self.on_quit)
     

@@ -10,7 +10,7 @@ default:
         soldiers: 0
     formulas:
         civils: civils * 1.05 + soldiers * 0.05
-        soldiers: soldiers + civils * 0.01
+        soldiers: soldiers + civils * 0.010
     deductions:
         population: civils + soldiers
 zones:

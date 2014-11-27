@@ -4,6 +4,7 @@ import svg.path
 
 import helper
 import features
+import formulas
 
 #TODO remove all sympy references
 import sympy
@@ -25,7 +26,7 @@ def etree_flat_filter(filter_callback, node):
             unexplored.extend( iter(e) )
 
 def etree_extract_path( path_node ):
-    "Extract the id, path and transformation id and return them in a tuple"
+    "Extract the id, path and transformation and return them in a tuple"
     node_id = path_node.attrib['id'] if 'id' in path_node.attrib else '<no_id>'
     node_path = path_node.attrib['d'] if 'd' in path_node.attrib else ''
     node_transformation = path_node.attrib['transform'] if 'transform' in path_node.attrib else ''
@@ -37,10 +38,9 @@ def make_zone_pair( id, path, transf ):
 
 class EntityProperty:
     "A property of the game entity, with a value and an update formula."
-    def __init__( self, initialValue, updateFormula ):
+    def __init__( self, initialValue, initialFormula, variableIdentifiers=set() ):
         self.feature = features.featurize( initialValue )
-        self._update_formula = updateFormula
-        self._update_function = sympy.lambdify( sympy.abc.x, self._update_formula, 'numpy' )
+        self.formula = formulas.formulize( initialFormula, variableIdentifiers )
     
     @property
     def value( self ):
@@ -51,13 +51,12 @@ class EntityProperty:
         self.feature.value = value
     
     @property
-    def update_formula( self ):
-        return self._update_formula
+    def formula( self ):
+        return self._formula
     
-    @update_formula.setter
-    def update_formula( self, formula ):
-        self._update_formula = formula
-        self._update_function = sympy.lambdify( sympy.abc.x, self._update_formula, 'numpy' )
+    @formula.setter
+    def formula( self, newFormula ):
+        self._formula = newFormula
 
 class EntityTag:
     def __init__( self, initialValue ):
@@ -80,19 +79,23 @@ class Zone:
         self._tags = tagTable if tagTable != None else {}
         pass
         
-    def set_property( self, id, value = None, updateFormula = None ):
-        if id not in self._properties:
+    def set_property( self, identifier, value = None, formula = None ):
+        if identifier not in self._properties:
             value = value if value != None else 0
-            updateFormula = updateFormula if updateFormula != None else identity
-            self._properties[id] = EntityProperty( value, updateFormula )
+            #by default use the identity, that is next(x) = x, where x is the variable with identifier 'identifier'
+            formula = formula if formula != None else identifier
+            identifiers = set(self._properties.keys()) | { identifier }
+            self._properties[identifier] = EntityProperty( value, formula, identifiers )
         else:
             if value != None:
-                self._properties[id].value = value
-            if updateFormula != None:
-                self._properties[id].update_formula = updateFormula
+                self._properties[identifier].value = value
+            if formula != None:
+                self._properties[identifier].formula.set_text( formula, set(self._properties.keys()) )
+                #TODO TODO TODO change to a call of the form `self._properties[identifier].formula.reformulate( formula, set(self._properties.keys()) )`
+                #So the reformulation is done without erasing the formula object, and without breaking its links
     
-    def set_formula( self, id, updateFormula ):
-        self.set_property( id, None, updateFormula )
+    def set_formula( self, identifier, formula ):
+        self.set_property( identifier, None, formula )
             
     def set_properties( self, propertyTable ):
         for id,value in propertyTable.items():
@@ -167,19 +170,24 @@ class World:
             zone_default_cfg = zones_cfg['default']
             zone_default_tags = zone_default_cfg['tags']
             zone_default_properties = zone_default_cfg['properties']
+            zone_default_formulas = zone_default_cfg['formulas']
         
             zone_cfgs = zones_cfg['zones']
             
             for zone_cfg in zone_cfgs:
                 zone_id = zone_cfg['id']
                 
-                zone_tags = zone_cfg['tags']
+                zone_tags = zone_cfg['tags'] if 'tags' in zone_cfg else {}
                 self._zones[zone_id].set_tags( zone_default_tags )
                 self._zones[zone_id].set_tags( zone_tags )
                 
-                zone_properties = zone_cfg['properties']
+                zone_properties = zone_cfg['properties'] if 'properties' in zone_cfg else {}
                 self._zones[zone_id].set_properties( zone_default_properties )
                 self._zones[zone_id].set_properties( zone_properties )
+                
+                zone_formulas = zone_cfg['formulas'] if 'formulas' in zone_cfg else {}
+                self._zones[zone_id].set_formulas( zone_default_formulas )
+                self._zones[zone_id].set_formulas( zone_formulas )
                 
         return self._zones
     
